@@ -1,0 +1,12 @@
+{{!-- Card based page --}}
+<div class="container">
+    <div class="row">
+        {{#if articles}}
+            {{#each articles}}
+                {{> topic-list}}
+            {{/each}}
+        {{else}}
+            <button class="btn waves-light waves-effect" href="/home">Click me to get some articles</button>
+        {{/if}}
+    </div>
+</div>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mongo-News</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+    <!-- Font Awesome -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' />
+    <!-- Material Icon CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize CSS CDN -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css' />
+    <!-- Your custom styles -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    {{!-- Font --}}
+    <link href="https://fonts.googleapis.com/css?family=Questrial:regular" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="blue">
+            <div class="nav-wrapper ocean-blue">
+                <a href="/home" class="brand-logo right">Mongo-News</a>
+                <ul id="nav-mobile nav-links" class="left hide-on-med-and-down">
+                    <li><a class='waves-effect waves-light' href="/home">Home</a></li>
+                    <li><a class='waves-effect waves-light' href="/topics">Topics</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        {{{ body }}}
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer blue">
+        <div class="container"> Mongo-News © 2019 Copyright | <a class="grey-text text-lighten-4" href="https://github.com/edriver4/Mongo-News"
+                rel="noreferrer" target="_blank">Github <i class="fa fa-github" aria-hidden="true"></i></a>
+        </div>
+    </footer>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <!-- Materialize JS CDN -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'></script>
+</body>
+</html>
