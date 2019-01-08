@@ -8,7 +8,7 @@ module.exports = app => {
     app.get("/", (req, res) => {
         console.log('I am alive at eh home route!!!! ==>')
         // Grab site data
-        // Create new articles for each main article found on insideevs
+        // Create new articles for each main article found on newyork times
         // Create the article in the db
         // Grab all the articles, sort, and render them to the topic bars
         axios.get("https://www.nytimes.com/").then(website => {
